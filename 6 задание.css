@@ -649,3 +649,161 @@ src:
     left: 362px;
     top: 526px;
 }
+
+.page5 {
+    position: absolute;
+    width: 1920px;
+    height: 717px;
+    left: 0px;
+    top: 3477px;
+}
+
+.disk {
+    position: absolute;
+    width: 944px;
+    height: 717px;
+}
+
+.buyTES {
+    position: absolute;
+    box-sizing: border-box;
+    width: 976px;
+    height: 717px;
+    left: 944px;
+    background: #000000;
+}
+
+.buyTES h1 {
+
+    position: absolute;
+    width: 624px;
+    height: 126px;
+    left: 32px;
+    top: 70px;
+    margin: 0;
+    font-family: 'Archangelsk';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 62px;
+    line-height: 63px;
+    color: #FFFFFF;
+}
+
+.set {
+    position: absolute;
+    box-sizing: border-box;
+    width: 466px;
+    height: 169px;
+    left: 32px;
+    top: 221px;
+}
+
+.set h2 {
+    position: absolute;
+    width: 224px;
+    height: 28px;
+    margin: 0;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    color: #52BEDC;
+}
+
+.setdisk {
+    position: absolute;
+    box-sizing: border-box;
+    width: 286px;
+    height: 32px;
+    top: 43px;
+}
+
+.setdisk h3 {
+    position: absolute;
+    width: 244px;
+    height: 21px;
+    left: 42px;
+    top: 6px;
+    margin: 0;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #FFFFFF;
+}
+
+.code {
+    position: absolute;
+    box-sizing: border-box;
+    width: 466px;
+    height: 32px;
+    top: 90px;
+}
+
+.code h3 {
+    position: absolute;
+    width: 424px;
+    height: 21px;
+    left: 42px;
+    top: 6px;
+    margin: 0;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #FFFFFF;
+}
+
+.collections {
+    position: absolute;
+    box-sizing: border-box;
+    width: 431px;
+    height: 32px;
+    top: 137px;
+}
+
+.collections h3 {
+    position: absolute;
+    width: 389px;
+    height: 21px;
+    left: 42px;
+    top: 6px;
+    margin: 0;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #FFFFFF;
+}
+
+.platform {
+    position: absolute;
+    width: 319px;
+    height: 186.27px;
+    left: 32px;
+    top: 460px;
+}
+
+.platform h2 {
+    position: absolute;
+    width: 255px;
+    height: 28.15px;
+    margin: 0;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    color: #52BEDC;
+}
+
+.platform-pos {
+position: absolute;
+width: 319px;
+height: 133.27px;
+top: 53px;
+}
