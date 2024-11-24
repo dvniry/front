@@ -1,0 +1,40 @@
+body {
+    background: linear-gradient(to right top, #0314ff, #ffffff);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    width: 100%;
+    background-color: #ffffff;
+    padding: 15px 0;
+    border: 2px solid #303030;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Тень для шапки */
+    margin-bottom: 20px;
+}
+
+.container {
+    text-align: center;
+    width: 80%;
+    max-width: 600px;
+}
+
+.centered-image {
+    width: 100%;
+    height: auto;
+    margin: 20px 0;
+}
+
+.description-box {
+    background-color: #ffffff;
+    padding: 20px;
+    border: 2px solid #303030;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}

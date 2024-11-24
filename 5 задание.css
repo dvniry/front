@@ -1,0 +1,151 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(to bottom, #0077be, #001f3f); 
+    overflow: hidden;
+    font-family: Arial, sans-serif;
+}
+
+.aquarium {
+    position: relative;
+    width: 80%;
+    height: 80%;
+    border: 5px solid #ffffff;
+    border-radius: 20px;
+    background: rgba(255, 255, 255, 0.1);
+    overflow: hidden;
+}
+
+
+.fish {
+    position: absolute;
+    width: 80px;
+    height: 40px;
+    background-color: orange;
+    border-radius: 50% 50% 50% 0; 
+    transform-origin: center;
+    animation-timing-function: linear;
+}
+
+.fish::after {
+    content: '';
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background-color: orange;
+    border-radius: 50%;
+    top: 10px;
+    left: -15px;
+    transform: rotate(45deg);
+}
+
+.fish1 {
+    top: 20%;
+    animation: swim-line_left-right1 16s linear infinite;
+}
+
+.fish2 {
+    top: 40%;
+    right: 0;
+    animation: swim-line_right-left1 20s linear infinite;
+}
+
+.fish3 {
+    top: 60%;
+    right: 0;
+    animation: swim-line_right-left2 24s linear infinite;
+}
+
+.fish4 {
+    top: 80%;
+    animation: swim-line_left-right2 28s linear infinite;
+}
+
+
+@keyframes swim-line_left-right1 {
+    0% {
+        left: 0%;
+        transform: scaleX(1);
+    }
+    50% {
+        left: 95%;
+        transform: translateY(200%) scaleX(1);
+    }
+    51% {
+        transform: translateY(200%) scaleX(-1);
+    }
+    99% {
+        left: 0%;
+        transform: translateY(0%) scaleX(-1);
+    }
+    100% {
+        transform: scaleX(1);
+    }
+}
+
+@keyframes swim-line_left-right2 {
+    0% {
+        left: 0%;
+        transform: scaleX(1);
+    }
+    50% {
+        left: 95%;
+        transform: translateY(-300%) scaleX(1);
+    }
+    51% {
+        transform: translateY(-300%) scaleX(-1);
+    }
+    99% {
+        left: 0%;
+        transform: translateY(0%) scaleX(-1);
+    }
+    100% {
+        transform: scaleX(1);
+    }
+}
+
+@keyframes swim-line_right-left1 {
+    0% {
+        right: 0%;
+        transform: scaleX(-1);
+    }
+    50% {
+        right: 95%;
+        transform: translateY(-400%) scaleX(-1);
+    }
+    51% {
+        transform: translateY(-400%) scaleX(1);
+    }
+    99% {
+        right: 0%;
+        transform: translateY(0%) scaleX(1);
+    }
+    100% {
+        transform: scaleX(-1);
+    }
+}
+
+@keyframes swim-line_right-left2 {
+    0% {
+        right: 0%;
+        transform: scaleX(-1);
+    }
+    50% {
+        right: 95%;
+        transform: translateY(100%) scaleX(-1);
+    }
+    51% {
+        transform: translateY(100%) scaleX(1);
+    }
+    99% {
+        right: 0%;
+        transform: translateY(0%) scaleX(1);
+    }
+    100% {
+        transform: scaleX(-1);
+    }
+}

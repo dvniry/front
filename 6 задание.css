@@ -1,0 +1,301 @@
+body {
+    margin: 0; 
+    padding: 0; 
+    width: 1920px;
+    height: 4334px;
+    top: 106px;
+    left: 69px;
+    background: #FFFFFF;
+    overflow-x: hidden; 
+}
+
+@font-face {
+    font-family: "Archangelsk";
+    src:
+      url("font/archangelsk1.woff") format("woff"),
+  }
+
+@font-face {
+font-family: "Roboto";
+src:
+    url("font/Roboto-Regular.woff") format("woff"),
+}
+
+.hero {
+    position: relative;
+    width: 1920px; 
+    height: 1000px; 
+}
+
+.header {
+    position: absolute;
+    width: 1280px;
+    height: 74px;
+    top: 20px;
+    left: 320px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    width: 296px;
+    height: 74px;
+}
+
+.social-logo {
+    position: relative;
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    height: 30px;
+}
+
+.social-icon {
+    width: 30px;
+    height: 30px;
+}
+
+
+.hero-content {
+    position: absolute;
+    width: 624px;
+    height: 369px;
+    top: 631px;
+    left: 976px;  
+    display: flex;
+}
+
+.yellow-block {
+    position: absolute;
+    width: 624px;
+    height: 369px;
+    background: url("6_pic/yellow.png") no-repeat top;
+    display: flex;
+}
+
+.hero-text {
+    position: absolute;
+    width: 484px;
+    height: 126px;
+    left: 70px;
+    top: 30px;
+    font-family: 'Archangelsk';
+    font-style: normal;
+    text-align: s;
+    font-weight: 400;
+    font-size: 62px;
+    line-height: 63px;
+    color: #000000;
+    display: flex;
+}
+
+.btn {
+    position: absolute;
+    top: 221px;
+    left: 70px;
+    width: 272px;
+    height: 78px;
+    padding: 19px 50px 19px 50px;
+    background: #000000;
+    display: flex;
+    align-items: center;
+}
+
+.btn h1 {
+    position: absolute;
+    font-family: 'Roboto';
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 40px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;    
+    color: #F8F200; 
+}
+
+.page2 {
+    position: absolute;
+    width: 1920px;
+    height: 777px;
+    left: 0px;
+    top: 1000px;
+
+    background: #FFFFFF;
+}
+
+.night-city {
+    position: absolute;
+    width: 996px;
+    height: 63px;
+    left: 320px;
+    top: 70px;
+
+    font-family: 'Archangelsk';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 62px;
+    line-height: 63px;
+
+    color: #000000;
+
+}
+
+.Cyberpunk-2077 {
+
+    position: absolute;
+    width: 952px;
+    height: 125px;
+    left: 320px;
+    top: 158px;
+
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 34px;
+    color: #777777;
+
+} 
+
+.Cyberpunk {
+    color: #52BEDC;
+    font-weight: 700;
+}
+
+.screen1  {
+    position: absolute;
+    width: 460px;
+    height: 196px;
+    left: 320px;
+    top: 353px;
+}
+
+.screen2  {
+
+    position: absolute;
+    width: 460px;
+    height: 196px;
+    left: 320px;
+    top: 581px;
+    
+}
+
+.big_screen  {
+    position: absolute;
+    width: 788px;
+    height: 424px;
+    left: 812px;
+    top: 353px;
+       
+}
+
+.dust2-3 {
+    position: absolute;
+    width: 1920px;
+    height: 70px;
+    left: 0px;
+    top: 1847px;
+}
+
+.page3 {
+    position: absolute;
+    width: 1920px;
+    height: 814px;
+    left: 0px;
+    top: 1917px;
+    background: #000000;
+}
+
+.play-win {
+    position: absolute;
+    width: 569px;
+    height: 63px;
+    left: 484px;
+    top: 30px;
+    font-family: 'Archangelsk';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 62px;
+    line-height: 63px;
+    color: #FFFFFF;
+}
+
+.play {
+    position: absolute;
+    width: 952px;
+    height: 91px;
+    left: 320px;
+    top: 172px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 34px;
+
+    color: #FFFFFF;
+
+
+}
+
+.action {
+    position: absolute;
+    width: 132px;
+    height: 132px;
+    left: 320px;
+    top: 15px;
+}
+
+.station {
+    position: absolute;
+    width: 788px;
+    height: 456px;
+    left: 812px;
+    top: 288px;
+}
+
+.form {
+    position: absolute;
+    width: 460px;
+    height: 383px;
+    left: 320px;
+    top: 361px;
+    /* background: #381a1a; */
+
+}
+
+.hay {
+    position: absolute;
+    width: 460px;
+    height: 35px;
+    left: 0px;
+    top: 0px;
+}
+
+.hay h1{
+
+    position: absolute;
+    width: 131px;
+    height: 21px;
+    left: 0px;
+    top: -10.5px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 21px;
+    color: #ffffff;
+
+}
+
+.hay-line {
+    position: absolute;
+    width: 460px;
+    height: 1px;
+    left: 0px;
+    top: 35px;
+
+    background: #777777;
+
+}
+
+
