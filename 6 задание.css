@@ -807,3 +807,85 @@ width: 319px;
 height: 133.27px;
 top: 53px;
 }
+
+.footer {
+    position: absolute;
+    width: 1920px;
+    height: 140px;
+    left: 0px;
+    top: 4194px;
+    background: #ffffff;
+}
+
+.endlogo {
+    position: absolute;
+    width: 296px;
+    height: 74px;
+    left: 320px;
+    top: 13px;
+}
+
+.cdrlogo {
+    position: absolute;
+    width: 296px;
+    height: 74px;
+    left: 648px;
+    top: 13px;
+}
+
+.footer h1 {
+    position: absolute;
+    width: 84px;
+    height: 21px;
+    left: 1211px;
+    top: 40px;
+    margin: 0;
+    font-family: 'Roboto2';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #000000;
+}
+
+.footer h2 {
+    position: absolute;
+    width: 272px;
+    height: 21px;
+    left: 1327px;
+    top: 40px;
+    margin: 0;
+    font-family: 'Roboto2';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #000000;
+}
+
+.registered-line {
+    position: absolute;
+    width: 1920px;
+    height: 40px;
+    left: 0px;
+    top: 100px;
+    background: #000000;
+}
+
+.registered-line h3 {
+    position: absolute;
+    width: 253px;
+    height: 14px;
+    left: 834px;
+    top: 13px;
+    margin: 0;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+}
