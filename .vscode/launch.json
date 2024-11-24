@@ -1,49 +1,41 @@
 {
     "version": "0.2.0",
     "configurations": [
-        
         {
             "type": "msedge",
             "request": "launch",
             "name": "1 задание.html",
-            "file": "c:\\Users\\dvniry\\Desktop\\front\\1 задание.html",
+            "file": "${env:FILE_PATH}1 задание.html"
         },
         {
             "type": "msedge",
             "request": "launch",
             "name": "2 задание.html",
-            "file": "c:\\Users\\dvniry\\Desktop\\front\\2 задание.html",
+            "file": "${env:FILE_PATH}2 задание.html"
         },
         {
             "type": "msedge",
             "request": "launch",
             "name": "3 задание.html",
-            "file": "c:\\Users\\dvniry\\Desktop\\front\\3 задание.html",
+            "file": "${env:FILE_PATH}3 задание.html"
         },
         {
             "type": "msedge",
             "request": "launch",
             "name": "4 задание.html",
-            "file": "c:\\Users\\dvniry\\Desktop\\front\\4 задание.html",
+            "file": "${env:FILE_PATH}4 задание.html"
         },
         {
             "type": "msedge",
             "request": "launch",
             "name": "5 задание.html",
-            "file": "c:\\Users\\dvniry\\Desktop\\front\\5 задание.html",
+            "file": "${env:FILE_PATH}5 задание.html"
         },
         {
             "type": "msedge",
             "request": "launch",
             "name": "6 задание.html",
-            "file": "c:\\Users\\dvniry\\Desktop\\front\\6 задание.html",
-        },
-        {
-            "type": "msedge",
-            "request": "launch",
-            "name": "svg",
-            "file": "C:\\Users\\dvniry\\Desktop\\front\\6_pic\\cyberpunk_logo.svg",
+            "file": "${env:FILE_PATH}6 задание.html"
         }
-
     ]
 }
