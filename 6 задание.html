@@ -9,24 +9,38 @@
 <body>
     <!-- Шапка -->
     <div class="hero">
-        <img src="6_pic\\hero-image.jpg" alt="hero" class="hero">
+        <img src="6_pic/hero-image.jpg" alt="hero" class="hero">
         <header class="header">
-            <object data="6_pic\cyberpunk_logo.svg" type="image/svg+xml" class="logo"></object>
+            <a href="#" class="logo">
+                <object data="6_pic/cyberpunk_logo.svg" type="image/svg+xml"></object>
+            </a>
             <div class="social-logo">
-                <object data="6_pic\youtube.svg" type="image/svg+xml" class="social-icon"></object>
-                <object data="6_pic\vk.svg" type="image/svg+xml" class="social-icon"></object>
-                <object data="6_pic\facebook.svg" type="image/svg+xml" class="social-icon"></object>
-                <object data="6_pic\twitter.svg" type="image/svg+xml" class="social-icon"></object>
-                <object data="6_pic\twich.svg" type="image/svg+xml" class="social-icon"></object>
-                <object data="6_pic\insta.svg" type="image/svg+xml" class="social-icon"></object>
+                <a href="https://youtube.com" target="_blank">
+                    <img  src="6_pic/youtube.svg" type="image/svg+xml" class="social-icon"></img>
+                </a>
+                <a href="https://vk.com" target="_blank">
+                    <img  src="6_pic/vk.svg" type="image/svg+xml" class="social-icon"></img>
+                </a>
+                <a href="https://facebook.com" target="_blank">
+                    <img  src="6_pic/facebook.svg" type="image/svg+xml" class="social-icon"></img>
+                </a>
+                <a href="https://twitter.com" target="_blank">
+                    <img  src="6_pic/twitter.svg" type="image/svg+xml" class="social-icon"></img>
+                </a>
+                <a href="https://twitch.tv" target="_blank">
+                    <img  src="6_pic/twich.svg" type="image/svg+xml" class="social-icon"></img>
+                </a>
+                <a href="https://instagram.com" target="_blank">
+                    <img  src="6_pic/insta.svg" type="image/svg+xml" class="social-icon"></img>
+                </a>
             </div>
         </header>
         <div class="hero-content">
             <div class="yellow-block">
                 <h1 class="hero-text">Доступно на всех платформах</h1>
-                <button class="btn">
+                <a href="#" class="btn">
                     <h1>Узнать больше</h1>
-                </button>
+                </a>
             </div>
         </div>
     </div>
@@ -62,36 +76,43 @@
             Заполни форму ниже и приложи скриншот о покупке игры.
             Итоги розыгрыша будут подведены 1 февраля. Удачи! ;)
         </h2>
-        <object data="6_pic\action.svg" type="image/svg+xml" class="action"></object>
+        <a href="#" class="action">
+            <img src="6_pic/action.svg" type="image/svg+xml"></img>
+        </a>
         <img src="6_pic\station.png" alt="station" class="station">
-        <div class="form">
-            <div class="hay">
-                <h1>Как тебя зовут?</h1>
+        <div class="form">           
+            <div class="hay" id="name-container">
+                <h1 onclick="showInput('name-container', 'name', 'Введите ваше имя')">Как тебя зовут?</h1>
                 <div class="hay-line"></div>
             </div> 
-            <div class="e-mail">
-                <h1>Твой e-mail</h1>
+            <div class="e-mail" id="email-container">
+                <h1 onclick="showInput('email-container', 'email', 'Введите ваш e-mail')">Твой e-mail</h1>
                 <div class="hay-line"></div>
             </div> 
             <div class="screenshot">
-                <div class="screenshot-border">
-                    <div class="screenshot-text">
-                        <h1>Прикрепить скриншот</h1>
-                        <h2>.png / .jpg / .pdf</h2>
+                <label for="screenshot">
+                    <div class="screenshot-border">
+                        <div class="screenshot-text">
+                            <h1>Прикрепить скриншот</h1>
+                            <h2>.png / .jpg / .pdf</h2>
+                        </div>
                     </div>
-                </div>
+                </label>
+                <input type="file" id="screenshot" name="screenshot" accept=".png, .jpg, .pdf" style="display: none;">
             </div>
             <div class="btn2">
-                <h1>Отправить</h1>
+                <a href="#">
+                    <h1>Отправить</h1>
+                </a>
             </div>
             <div class="agreement">
-                <div class="check">
+                <div class="check" onclick="toggleCheckbox()">
                     <div class="check-border">
-                        <object data="6_pic\agree.svg" type="image/svg+xml" class="check-agree"></object>
+                        <object data="6_pic/agree.svg" type="image/svg+xml" class="check-agree" style="display: none;"></object>
                     </div>
                 </div>
                 <h1>Согласен на обработку персональных данных</h1>
-            </div>
+            </div>    
         </div>
     </div>
     <img src="6_pic\dust3-4.png" alt="dust3-4" class="dust3-4">
@@ -121,7 +142,9 @@
                 </div>
         </div>
         <div class="btn3">
-            <h1>Подробнее</h1>
+            <a href="#">
+                <h1>Подробнее</h1>
+            </a>
         </div>
         <div class="hpXcyberpunk-logo">
             <object data="6_pic\hpXcyberpunk-logo.svg" type="image/svg+xml"></object>
@@ -134,31 +157,44 @@
             <div class="set">
                 <h2>В комплект входит:</h2>
                 <div class="setdisk">
-                    <object data="6_pic\disk.svg" type="image/svg+xml"></object>
+                    <a href="#">
+                        <object data="6_pic/disk.svg" type="image/svg+xml"></object>
+                    </a>
                     <h3>Футляр с игровыми дисками</h3>
                 </div>
                 <div class="code">
-                    <object data="6_pic\code.svg" type="image/svg+xml"></object>
-                    <h3>Футляр с кодом для загрузки игры и дисками (pc)</h3>
+                    <a href="#">
+                        <object data="6_pic/code.svg" type="image/svg+xml"></object>
+                    </a>
+                    <h3>Футляр с кодом для загрузки игры...</h3>
                 </div>
                 <div class="collections">
-                    <object data="6_pic\collections.svg" type="image/svg+xml"></object>
-                    <h3>Справочник с информацией об игровом мире</h3>
+                    <a href="#">
+                        <object data="6_pic/collections.svg" type="image/svg+xml"></object>
+                    </a>
+                    <h3>Справочник с информацией...</h3>
                 </div>
             </div>
             <div class="platform">
                 <h2>Выберите платформу:</h2>
-                <object data="6_pic\platform.svg" type="image/svg+xml" class="platform-pos"></object>
+                <a href="#">
+                    <img src="6_pic/platform.svg" type="image/svg+xml" class="platform-pos"></img>
+                </a>
             </div>
         </div>
     </div>
     <footer class="footer">
-        <object data="6_pic\cyberpunk_logo.svg" type="image/svg+xml" class="endlogo"></object>
-        <object data="6_pic\CD_Projekt_logo.svg" type="image/svg+xml" class="cdrlogo"></object>
-        <h1>Лицензия</h1>
-        <h2>Политика конфиденциальности</h2>
+        <a href="#">
+            <img src="6_pic/cyberpunk_logo.svg" type="image/svg+xml" class="endlogo"></img>
+        </a>
+        <a href="#">
+            <img src="6_pic/CD_Projekt_logo.svg" type="image/svg+xml" class="cdrlogo"></img>
+        </a>
+        <a href="#"><h1>Лицензия</h1></a>
+        <a href="#"><h2>Политика конфиденциальности</h2></a>
         <div class="registered-line">
             <h3>CD PROJEKT®, Cyberpunk®, Cyberpunk 2077®</h3>
         </div>
     </footer>
+    <script src="6 задание.js"></script>
 </body>
