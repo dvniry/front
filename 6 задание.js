@@ -1,22 +1,13 @@
 function showInput(containerId, inputName, placeholderText) {
-    // Получаем контейнер
     const container = document.getElementById(containerId);
-
-    // Создаём поле ввода
     const input = document.createElement('input');
     input.type = 'text';
     input.name = inputName;
     input.placeholder = placeholderText;
-    input.className = 'input-field'; // Применяем стили
-
-    // Очищаем контейнер и добавляем поле ввода
-    container.innerHTML = ''; // Удаляем текущее содержимое
-    container.appendChild(input); // Добавляем поле ввода
-
-    // Фокусируемся на поле ввода
+    input.className = 'input-field';
+    container.innerHTML = ''; 
+    container.appendChild(input); 
     input.focus();
-
-    // Возвращаем текст, если поле остаётся пустым
     input.addEventListener('blur', () => {
         if (input.value.trim() === '') {
             container.innerHTML = `
