@@ -8,7 +8,7 @@ const normalPrice = (str) => {
 const loadCatalog = (country) => {
   catalogList.innerHTML = '';
 
-  fetch('data/data.json')
+  fetch('./data/data.json')
     .then((response) => {
       return response.json();
     })
