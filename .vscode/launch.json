@@ -36,6 +36,12 @@
             "request": "launch",
             "name": "6 задание.html",
             "file": "${env:FILE_PATH}6 задание.html"
+        },
+        {
+            "type": "msedge",
+            "request": "launch",
+            "name": "7 задание.html",
+            "file": "${env:FILE_PATH}7 задание/7 задание.html"
         }
     ]
 }
